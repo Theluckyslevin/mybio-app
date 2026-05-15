@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "build": "expo build:android"
+    "build": "eas build --platform android"
   },
   "dependencies": {
     "expo": "~50.0.0",
@@ -22,7 +22,6 @@
     "react-native-gesture-handler": "~2.14.0",
     "react-native-reanimated": "~3.6.2",
     "react-native-draggable-flatlist": "^4.0.1",
-    "react-native-async-storage": "npm:@react-native-async-storage/async-storage@1.21.0",
     "react-native-qrcode-svg": "^6.3.1",
     "react-native-svg": "14.1.0",
     "react-native-vector-icons": "^10.0.3",
